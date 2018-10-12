@@ -92,7 +92,7 @@ var concert = function () {
             if (!error && response.statusCode === 200) {
 
                 console.log("-------------------");
-                console.log("_________Your Band's Concerts__________");
+                console.log("_________" + artist + "'s Concerts__________");
                 for (var i = 0; i < results.length; i++) {
                     console.log("-----------------");
                     console.log("Venue: " + results[i].venue.name);
@@ -177,7 +177,7 @@ if (process.argv[2] === "do-what-it-says") {
             console.log(data);
             //splits content of random.txt into an array based on commas and line breaks
             var dataArray = data.split("\n").join(",").split("\r").join(",").split(", ").join(",").split(",");
-            console.log(dataArray);
+            //console.log(dataArray);
 
             //Loops through dataArray, replacing do-what-it-says with the first two values of dataArray, running the option functions, then removing what was added (plus two empty array values) to allow the next round of functions to work
             for (var i = 0; i < dataArray.length; i + 2) {

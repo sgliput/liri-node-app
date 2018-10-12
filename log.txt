@@ -14,3 +14,7 @@ movie-this, In Time
 spotify-this-song, Paradise Coldplay
 movie-this, Treasure Planet
 concert-this, Coldplay
+spotify-this-song, Barlights
+concert-this, The Killers
+concert-this, The Beatles
+movie-this, Gone with the Wind
