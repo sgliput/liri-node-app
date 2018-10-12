@@ -10,7 +10,7 @@ After typing in "node liri", the next word determines which API is called. Typin
 
 As seen in the example screenshot below, typing "node liri spotify-this-song Barlights" prints to the console the artist, song name, its album, and a preview link to listen to the song on Spotify (as long as you're signed in). The "Content Added!" line is triggered by the fs.appendFile function, confirming that it has automatically added "spotify-this-song Barlights" to log.txt, as seen in the left side of the screenshot.
 
-![First Log Screenshot](https://sgliput.github.com/liri-node-app/images/firstLog.png)
+![First Log Screenshot](/images/firstLog.png)
 
 
 ## OMDB
